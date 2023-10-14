@@ -1,0 +1,54 @@
+body{
+    background-image: url(./image/Untitled\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    background-attachment: fixed;
+    height: 90vh;
+    font-weight: 800;
+}
+
+div{
+    max-width:430px ;
+    background-color: white;
+    margin: auto;
+    padding: auto;
+    padding:20px;
+    margin-top:30px;
+    height: fit-content;
+    margin-bottom: -15px;
+    height: fit-content;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+#firstname,#lastname,#date,#Email,#password,#re-password
+{
+    border-radius: 50px;
+    width: 400px;
+    background-color:antiquewhite;
+    padding: 10px;
+    height: 10px;
+    margin-bottom: 15px;
+    
+}
+input[type="submit"]{
+    width: 400px;
+    background-color: gray;
+    height: 30px;
+    
+  
+}
+
+hr{
+    margin: 10px;
+}
+.regbutton{
+    margin-top: 2px;;
+
+}

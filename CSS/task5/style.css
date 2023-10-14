@@ -1,0 +1,15 @@
+div{
+    max-width: 400px;
+    background-color: cadetblue;
+    padding: auto;
+    margin: auto;
+    border: 20px solid black;
+
+}
+.second-p{
+    text-align: center;
+    padding: 30px;
+}
+.first-p{
+    padding-bottom: 20px;
+}
