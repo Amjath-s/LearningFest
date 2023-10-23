@@ -7,30 +7,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-  <nav class="navbar navbar-expand-md bg-info navbar-light text-light fixed-top ">
-    <div class="container-fluid">
-        <a class="navbar-brand" >
-            <image src="./webimage/Build.MyWeb.png" alt="logo" class="rounded=pill" width="70px"></image>
-        </a>
-        <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class=" navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mentors</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Participate</a>
-              </li>    
-            </ul>
-          </div>  
-        </div>
-</nav>
-    <section>
+       <nav class="navbar navbar-expand-md bg-info navbar-light text-light sticky-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" >
+                <image src="./webimage/Build.MyWeb.png" alt="logo" class="rounded=pill" width="70px"></image>
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class=" navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Mentors">Mentors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Register">Register</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#participate">Participate</a>
+                  </li>    
+                </ul>
+              </div>  
+            </div>
+    </nav>
+    <section id="Home">
         <div id="demo" class="carousel slide" data-bs-ride="carousel ">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -57,16 +61,16 @@
           </div>
     </section>
 
-    <section>
+    <section >
         <h5 class="text-center my-4"> join us</h5>
         <p class="text-center">Pygrammers is a community of python enthusiasts with similar idealogis and interest</p>
-        <div class="text-center">        <button type="button" class="btn btn-primary">Telegram</button>           </div>
+        <div class="text-center">        <button type="button" class="btn btn-primary">Telegram</button>        </div>
     </section>
 
-    <!-- <section> 
-        <div class=" container d flex justify-center p-3 mt-3"  >
+    <section class="text-center" id="Register" > 
+        <div class=" container d flex justify-center p-3 mt-3" style="width: fit-content; border: 1px solid lightblue;" >
             <form>
-                <div class="text-center" > 
+                <div class="text-center"> 
                     <h3> Form</h3>
                     <div class=" form-group mb-3 ">
                         <label for="Name"  class="form-label">Name</label>
@@ -86,7 +90,7 @@
                     </div>
                 
                     <div class="form-group mb-3">
-                        <label for="exampleFormControlFile1">upload a short video or image of hand written sheet showing your interest join build.myweb </label>
+                        <label for="exampleFormControlFile1 text-muted">upload a short video or image of hand written sheet showing your interest join build.myweb </label><br>
                         <input type="file" class="form-control-file" id="exampleFormControlFile1">
                       </div>
                     <div class="form-group mb-3">
@@ -94,7 +98,6 @@
                             <option selected>Have you attended any events by pygrammers before?!</option>
                             <option value="1">Yes</option>
                             <option value="2">No</option>
-                           
                           </select>
                     </div>
                     <div class="align-center">   
@@ -112,17 +115,17 @@
 
     </section>
    
-     -->
+    
 
 
 
-     <section class="bg-info mt-3" >
+     <section class="bg-info mt-3" id="Mentors" >
 
         <div class="container">
             <div class="text-center"><h4>Mentors</h4></div>
             <div class="row p-4 m-2">
                 <div class="col-md-4 mt-2 p-2" >         
-                    <div class="card" style="width: 20rem;">
+                    <div class="card" style="width: 17rem;">
                         <img class="card-img-top" src="./webimage/elonmusk.jpeg" alt="Card image cap">
                         <div class="card-body">
                      
@@ -131,7 +134,7 @@
                       </div>
                     </div>
                     <div class="col-md-4 mb-2 p-2">         
-                        <div class="card" style="width: 20rem;">
+                        <div class="card" style="width: 17rem;">
                             <img class="card-img-top" src="./webimage/elonmusk.jpeg" alt="Card image cap">
                             <div class="card-body">
                              
@@ -140,7 +143,7 @@
                           </div>
                         </div>
                         <div class="col-md-4 mb-2 p-2">         
-                            <div class="card" style="width: 20rem;">
+                            <div class="card" style="width: 17rem;">
                                 <img class="card-img-top" src="./webimage/elonmusk.jpeg" alt="Card image cap">
                                 <div class="card-body">
             
@@ -149,7 +152,7 @@
                               </div>
                             </div>
                             <div class="col-md-4 mb-2 p-2">         
-                                <div class="card" style="width: 20rem;">
+                                <div class="card" style="width: 17rem;">
                                     <img class="card-img-top" src="./webimage/elonmusk.jpeg" alt="Card image cap">
                                     <div class="card-body">
                                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -157,7 +160,7 @@
                                   </div>
                                 </div>
                                 <div class="col-md-4 mb-2 p-2">         
-                                    <div class="card" style="width: 20rem;">
+                                    <div class="card" style="width: 17rem;">
                                         <img class="card-img-top" src="./webimage/elonmusk.jpeg" alt="Card image cap">
                                         <div class="card-body">
                                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -165,7 +168,7 @@
                                       </div>
                                     </div>
                                     <div class="col-md-4 mb-2 p-2">         
-                                        <div class="card" style="width: 20rem;">
+                                        <div class="card" style="width: 17rem;">
                                             <img class="card-img-top" src="./webimage/elonmusk.jpeg" alt="Card image cap">
                                             <div class="card-body">
                                            
@@ -179,9 +182,9 @@
      </section>
     
      
-     <section class="text-center">
+     <section class="text-center" id="participate">
       <h3>Participant</h3>
-      <table class="table table-striped"">
+      <table class="table table-striped">
         <thead>
           <tr>
             <th scope="row"> sl no</th>
