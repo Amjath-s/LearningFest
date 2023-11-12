@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .label{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+
+        }
+        .input{
+            width: 150px;
+            
+        }
+        button{
+              
+              padding:10px;
+              margin: auto;
+              background-color:lightcyan;
+        }
+        div{
+            padding: 20px;
+            border: 2px solid brown;
+            width: max-content;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 200px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>                                                 
+    <h2 style="text-align: center;" > Addition </h2>
+    <label class="label"> First Input              
+    <input type="number" class="input" id="input1"> 
+    </label>
+    <label class="label">Second Input <input type="number" class="input" id="input2"></label>
+    <button type="button" onclick="clickfunction ()"> ADD</button>
+    <label class="label">Result! <input type="number" id="output"> </label>
+    </div>
+
+
+
+<script>
+        
+        
+
+        function clickfunction(){
+          
+            var a= Number(document.getElementById("input1").value);
+            var b= Number(document.getElementById("input2").value);
+            if(isNaN(a) ||isNaN(b))
+            {
+                alert("There is no input in certian feild")
+
+            }
+            else{ 
+            
+            document.getElementById("output").value= a+b;
+            }
+        
+        
+        }
+        
+
+</script>
+    
+</body>
+</html>
