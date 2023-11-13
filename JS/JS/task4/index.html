@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+            <div id="children">
+                <div id="heading"> FORM</div>
+                <div id="input">
+                    <input type="text" placeholder="Name*" class="inp" id="name">
+                    <input type="email" placeholder="email" class="inp" id="email">
+                    <input type="number" placeholder="PH.NO"class="inp no-spinner" id="phno">
+                    <input type="password" placeholder="password*" class="inp" id="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                    <p style="font-size: 10px;">eg :Password@123 </p>
+                    <input type="submit" onclick=" validate()" >
+                </div>
+            </div> 
+       
+    </div>
+    
+</body>
+ <script src="./script.js">
+
+ </script>
+</html>

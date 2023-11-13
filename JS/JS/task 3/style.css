@@ -1,0 +1,53 @@
+.no spinner{
+    -moz-appearance: textfield;
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+#insidebox{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 350px;
+    width: 350px; 
+    background-color: aqua;
+    padding: 30px;
+    box-shadow:1px 0.5px 1px 0.5px;
+}
+
+input{
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow:3px 2px 1px 3px rgb(252, 244, 244);
+    background-color: none;    
+}
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   
+
+}
+h3{
+    text-align: center;
+
+   
+}
+button{
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 15px;
+    background-color: lightcyan;
+}
+
+#answer{
+    text-align: center;
+
+}
+
+
+
